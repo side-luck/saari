@@ -1,0 +1,3 @@
+/* SilkCurtain — load intro overlay. Scoped, self-contained; safe to delete with SilkCurtain.jsx */
+.silk-curtain{position:fixed;inset:0;z-index:100;pointer-events:auto;background:#3B0A1E;will-change:transform}
+.silk-curtain img{position:absolute;left:-10%;top:-10%;width:120%;height:120%;max-width:none;object-fit:cover;object-position:left center;display:block;user-select:none}
