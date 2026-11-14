@@ -1,0 +1,4 @@
+/* Keep every overlapping silk card action above its neighbour while preserving the fan. */
+.silk-fan>div:first-child .silk-card { z-index: 3; }
+.silk-fan>div:nth-child(2) .silk-card { z-index: 2; }
+.silk-fan>div:last-child .silk-card { z-index: 1; }
